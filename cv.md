@@ -41,4 +41,4 @@ I want to gain as much knowledge as possible, to acquire skills in writing lacon
 
 ## English level
 
-My English Level is Pre-intermediate A1
+My English Level is Pre-intermediate A1.

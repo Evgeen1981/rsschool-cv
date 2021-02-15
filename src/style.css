@@ -1,0 +1,158 @@
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding-left 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header-container {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-text {
+  padding-left: 30px;
+}
+
+.top_img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.header-title {
+  /* font-weight: 700; */
+  font-size: 90px;
+  /* padding-left: 30px; */
+}
+
+.header-text {
+  max-width: 830px;
+  width: 100%;
+}
+
+.header-title span {
+  font-weight: 700;
+}
+
+.header-text__text {
+  padding-top: 30px;
+  font-size: 24px;
+}
+
+.header-contacts {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header-contacts__title {
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.header-contacts__link {
+  text-decoration: none;
+  color: #000;
+  /* margin-bottom: 8px; */
+}
+
+.summary {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding-top: 50px;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.summary-text {
+  line-height: 150%;
+}
+
+.summary-text span {
+  font-weight: 700;
+}
+
+.skills {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding-top: 50px;
+}
+
+.skills-text__inner+.skills-text__inner {
+  padding-top: 10px;
+}
+
+.skills-text__inner span {
+  font-weight: 700;
+}
+
+.code-example {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 50px;
+}
+
+.code-exemple_code {
+  background-color: #e2e2e2;
+  font-family: 'Brygada 1918', serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 150%;
+  padding-left: 20px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.education {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding-top: 50px;
+}
+
+.education-list {
+  padding-left: 30px;
+}
+
+.education-list__inner {
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+}
+
+.education-list__inner::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  left: -10px;
+  top: 2px;
+}
+
+.english-level {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 50px;
+}
+
+.english-level__text {
+  font-size: 16px;
+}
+
+.footer-text {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #757575;
+}

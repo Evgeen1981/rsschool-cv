@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="src/reset.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Brygada+1918&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+</body>
+<header class="main-info">
+  <div class="container header-container">
+    <img class="top_img" src="src/fkhKFwLcO3c.jpg" alt="Evgeen">
+    <div class="header-text">
+      <h1 class="header-title">
+        Evgeny <br>
+        <span>Negura</span>
+      </h1>
+      <p class="header-text__text">Beginning Javascript learner</p>
+      <h2 class="header-contacts__title">Contacts</h2>
+      <ul class="header-contacts">
+        <li class="header-contacts__links">
+          <a class="header-contacts__link" href="mailto:evgenijnegura@gmail.com">evgenijnegura@gmail.com</a>
+        </li>
+        <li class="header-contacts__links">
+          <a class="header-contacts__link" href="mailto:evgeen@inbox.ru">evgeen@inbox.ru</a>
+        </li>
+        <li class="header-contacts__links">
+          <a class="header-contacts__link" href="tel:+375336075799">+375(33)607-57-99</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="summary">
+  <div class="container">
+    <h2 class="summary-title title">
+      Summary
+    </h2>
+    <div class="summary-text">
+      I want to gain as much knowledge as possible, to acquire skills in writing laconic algorithms. The frontend hobby
+      has arisen recently. My purpose is to deeply learn JavaScript and find a job as a frontend developer. Further
+      deeper
+      immersion in development. Right now I am design developer of packaging materials in my current job. I have
+      extensive
+      experience in communicating with customers and approving organizations - useful skills when applying for a
+      company, <span> I am ready to study a lot, my desire to be in
+        demand as a developer is very great.</span>
+    </div>
+  </div>
+</div>
+
+<div class="skills">
+  <div class="container">
+    <h2 class="skills-title title">
+      Skills
+    </h2>
+    <ul class="skills-text">
+      <li class="skills-text__inner"><span>In studing:</span> HTML, CSS, SCSS, JavaScript, BEM, Git.
+      </li>
+      <li class="skills-text__inner">
+        <span>Mastered:</span> VSCode, Figma, Adobe Photoshop, Adobe Illustrator, Adobe Indesign, CorelDraw etc.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="code-example">
+  <div class="container">
+    <h2 class="code-example title">
+      Code example
+    </h2>
+    <pre class="code-exemple_code">
+      <code class="code-exemple_code">
+  const loadText = document.querySelector('.loading-text');  
+  const bg = document.querySelector('.bg');  
+  let load = 0;
+  let int = setInterval(blurring, 30);
+  function blurring() {
+     load++;
+      if (load > 99) {
+          clearInterval(int);
+      }
+      loadText.innerText = `${load}%`;
+      loadText.style.opacity = scale(load, 0, 100, 1, 0);
+      bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`;
+  }
+  const scale = (num, in_min, in_max, out_min, out_max) => {
+      return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+  };
+      </code>
+    </pre>
+  </div>
+</div>
+
+<div class="education">
+  <div class="container">
+    <h2 class="education-title title">
+      Education
+    </h2>
+    <ul class="education-list">
+      <li class="education-list__inner">
+        Secondary special education.
+      </li>
+      <li class="education-list__inner">
+        Online course “JavaScript 2021 - Complete Zero-to-Pro Guide”. (Udemy, Vladilen Minin).
+      </li>
+      <li class="education-list__inner">
+        Online marathon “7 days HTML, CSS & JS”
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="english-level">
+  <div class="container">
+    <h2 class="english-level title">
+      English level
+    </h2>
+    <p class="english-level__text">My English Level is Pre-intermediate A1</p>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-text">Negura Evgeny © 2021</div>
+  </div>
+</footer>
+
+</html>
